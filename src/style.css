@@ -1,0 +1,14 @@
+canvas{
+  border : 1px solid black ;
+}
+div#canvas_wrapper{
+  background : white ;
+  width  : 710px ;
+  height : 710px ;
+  padding : 10px ;
+  text-align : center ;
+  margin : auto ;
+}
+input#input_delay, input#input_dust{
+  width : 50px ;
+}

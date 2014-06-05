@@ -1,0 +1,19 @@
+[mathjax]
+
+While investigating Conway's game of life I wanted to see if I could easily extend the framework I'd developed to explore other systems.  One of the more interesting cellular automata is the rock-paper-scissors system where three populations feed on each other.
+
+<h3>Links</h3>
+
+<a href="http://www.aidansean.com/tricolor">Live page</a>
+<a href="https://github.com/aidansean/tricolor">GitHub repository</a>
+
+<h3>Overview</h3>
+
+The algorithm used to make the rock-paper-scissors cellular automata is does not seem to be well documented in an easy to obtain source, so I had to interpet much of the algorithm based on subjective descriptions.  Each cells has a health which can take a value between \(0\) and \(10\).  If a prey species is adjacent to its predator species then the prey species gives a health point to the predator species.  When the prey species health reaches \(0\) it is replaced by a predator species.  The result is that this creates spiral patterns on the canvas.
+
+<h3>Challenges</h3>
+<dl>
+<dt><em>Challenge</em>: The algorithm needed some experimentation and tweaking to get right.</dt>
+
+<dd><em>Solution</em>: There are numerous papers and articles about how these algorithms work, but I couldn't find a source that was explicit or that I could understand.  As a result I had to create my own algorithm and tweak it until it was stable.  Hopefully others users can read my code and develop it further. (Resolved)</dd>
+</dl>
