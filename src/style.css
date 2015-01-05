@@ -3,12 +3,26 @@ canvas{
 }
 div#canvas_wrapper{
   background : white ;
-  width  : 710px ;
-  height : 710px ;
-  padding : 10px ;
+  width  : 760px ;
+  height : 860px ;
+  padding : 5px ;
   text-align : center ;
   margin : auto ;
 }
-input#input_delay, input#input_dust{
+input.text{
   width : 50px ;
 }
+table#table_population{
+  width : 200px ;
+  margin : auto ;
+}
+td.population{
+  text-align : center ;
+}
+select{
+  width : 100px ;
+}
+
+div.tab     { display : table      ; }
+div.tab_row { display : table-row  ; }
+div.tab_cell{ display : table-cell ; }
